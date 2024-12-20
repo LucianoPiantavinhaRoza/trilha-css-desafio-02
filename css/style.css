@@ -1,0 +1,154 @@
+/* ================================= CABEÇALHO ================================= */
+
+header {
+    padding: 1rem;
+    background-color: var(--white);
+}
+
+header .container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .container .header-left {
+    width: 100%;
+    max-width: 14.6rem;
+    height: 2.4rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .container .header-left img{
+    cursor: pointer;
+}
+
+header .container .header-center {
+    width: 100%;
+    max-width: 40.4rem;
+    height: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header .container .header-center input {
+    width: 100%;
+    max-width: 34.8rem;
+    height: 4rem;
+    border: 1px solid var(--medium-gray);
+}
+
+header .container .header-center .searchfield-image {
+    width: 100%;
+    max-width: 5.7rem;
+    height: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    background-color: var(--medium-white);
+    border: 1px solid var(--medium-gray);
+}
+
+header .container .header-center .searchfield-image img {
+    width: 100%;
+    max-width: 2.4rem;
+    height: 2.4rem;
+}
+
+header .container .header-right {
+    width: 100%;
+    max-width: 13rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .container .header-right img {
+    cursor: pointer;
+}
+
+/* ============================ CONTEÚDO PRINCIPAL ============================= */
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+main .main-container .watching-video {
+    cursor: pointer;
+}
+
+main .main-container h1 {
+    width: 100%;
+    max-width: 87.1rem;
+    /* height: 2.3rem; */
+    margin-top: 1.6rem;
+    margin-bottom: 1.6rem;
+}
+
+main .main-container .video-actions {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 1.6rem;
+}
+
+main .main-container .video-actions .channel-infos, 
+.like, 
+.deslike, 
+.share, 
+.download {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    cursor: pointer;
+}
+
+main .main-container .video-actions button {
+    max-width: 15.9rem;
+    height: 4rem;
+    background-color: var(--red);
+    color: var(--white);
+    font-size: 1.4rem;
+    /* font-weight: 600; */
+    line-height: auto;
+    letter-spacing: 0%;
+    border-radius: 2px;
+    padding: 0 3rem;
+}
+
+main .main-container .video-actions button:hover {
+    opacity: 0.7;
+}
+
+main .main-container .visualizations {
+    width: 100%;
+    max-width: 59.1rem;
+    margin-bottom: 1.6rem;
+}
+
+main .main-container .description {
+    width: 100%;
+    max-width: 51rem;
+    margin-bottom: 1.6rem;
+}
+
+/* =============================== MENU LATERAL ================================ */
+
+main .sidebar-container .aside-video {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+main .sidebar-container .aside-video img {
+    margin-right: 1rem;
+}
